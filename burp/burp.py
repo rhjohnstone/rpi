@@ -1,14 +1,19 @@
-from gpiozero import Button
-import pygame
+'''from gpiozero import Button'''
+from pygame import mixer
 from time import sleep
 
 # tell RPi which GPIO pin to use
-jelly_baby = Button(3)
+'''jelly_baby = Button(3)'''
 
 # initialize audio
-pygame.init()
-pygame.mixer.init()
-burp = pygame.mixer.Sound("burp.wav")
+mixer.init()
+burp = mixer.Sound("burp.wav")
+sleep(2)
+for i in range(3):
+    print(i)
+    burp.play()
+    sleep(1)
+    burp.stop()
 
 try:
     while True:
