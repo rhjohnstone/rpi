@@ -9,6 +9,6 @@ Currently, it just plays the notes in the correct order, with no thought given t
 But once the notes are connected to buttons, it will be easier to play each note for its correct length.
 
 I originally wanted to use `pygame.midi` to play the notes, but I couldn't get that to work.
-So instead, I just downloaded recordings of a piano playing each note from (here)[https://freesound.org/people/pinkyfinger/packs/4409/], and play the relevant files when needed.
+So instead, I just downloaded recordings of a piano playing each note from [here](https://freesound.org/people/pinkyfinger/packs/4409/), and play the relevant files when needed.
 Even though I could download them for free, I had to register an account there, so I'm not sure if I can share the files in this repo.
 Therefore, to be safe, I have removed them from the repo.
