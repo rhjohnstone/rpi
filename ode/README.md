@@ -1,8 +1,8 @@
 # Play _Ode to Joy_ on a Raspberry Pi
 
 The ultimate plan, which I might never get around to: connect the 5 notes in OtJ to individual buttons, connected to the RPi in parallel.
-In particular, I wanted to use jelly babies as in the classic (burping jelly baby project)[https://projects.raspberrypi.org/en/projects/burping-jelly-baby/].
-However, after completing that project (video (here)[https://youtu.be/byJUbMDrTLQ]), I decided never to use sweets again.
+In particular, I wanted to use jelly babies as in the classic [burping jelly baby project](https://projects.raspberrypi.org/en/projects/burping-jelly-baby/).
+However, after completing that project (video [here](https://youtu.be/byJUbMDrTLQ)), I decided never to use sweets again.
 So I'll probably just make normal buttons out of tinfoil or something.
 
 Currently, it just plays the notes in the correct order, with no thought given to speed or lengths or rests.
