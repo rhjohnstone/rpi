@@ -1,6 +1,7 @@
 from gpiozero import LED
 from w1thermsensor import W1ThermSensor
 import time
+import numpy as np
 
 
 def update(final=False):
