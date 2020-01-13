@@ -6,6 +6,8 @@ import numpy as np
 
 def update(final=False):
     global data
+    if final:
+        data = data[data[:,0]>0]
     with open(output_file, "a") as outf:
         np.savetxt(outf, data)
     if not final:
